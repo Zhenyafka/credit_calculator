@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Sum from './sum';
+import Term from "./term";
+import Periodicity from "./periodicity";
+import Rate from "./rate";
+import Date from './issue-date';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header>
+                <p>
+                    qwe
+                </p>
+            </header>
+            <div>
+                <Sum/>
+            </div>
+            <div>
+                <Rate/>
+            </div>
+            <div>
+                <Term/>
+            </div>
+            {/*<div>*/}
+            {/*    <Date/>*/}
+            {/*</div>*/}
+            <div>
+                <Periodicity/>
+            </div>
+        </div>
+    );
 }
 
 export default App;
