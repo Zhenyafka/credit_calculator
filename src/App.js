@@ -1,9 +1,10 @@
-import './App.css';
+import React from 'react';
+// import * from './App.css';
 import Sum from './sum';
 import Term from "./term";
 import Periodicity from "./periodicity";
 import Rate from "./rate";
-import Date from './issue-date';
+import DatePick from './issue-date';
 
 function App() {
     return (
@@ -23,7 +24,7 @@ function App() {
                 <Term/>
             </div>
             {/*<div>*/}
-            {/*    <Date/>*/}
+            {/*    <DatePick/>*/}
             {/*</div>*/}
             <div>
                 <Periodicity/>
