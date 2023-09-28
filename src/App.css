@@ -1,0 +1,24 @@
+.backgroundOfPage{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1024px;
+    width: 1440px;
+    background-image: linear-gradient(#1CDEEA, #000000);
+}
+.mainBlock{
+    margin-left: auto;
+    margin-right: auto;
+    height: 811px;
+    width: 1206px;
+    background-image: linear-gradient(#FDFFFF, #1CDEEA, #215C60);
+    border-radius: 50px;
+}
+.sumBlock{
+    position: relative;
+    top: 185px;
+    left: 206px;
+    height: 80px;
+    width: 300px;
+    background-color: #FDFFFF;
+    border-radius: 10px;
+}
