@@ -1,8 +1,8 @@
 const Rate = () => {
     return (
         <form>
-            <label>Interest rate
-                <input type="text" required/>
+            <label>
+                <input type="text" required placeholder="Interest rate" className="inputRate"/>
             </label>
         </form>
     )

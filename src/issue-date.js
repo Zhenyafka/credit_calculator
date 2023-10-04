@@ -6,7 +6,7 @@ const DatePick = () => {
     const [date, setDate] = useState(new Date());
     return (
         <div>
-            <DatePicker selected={date} onChange={(date) => setDate(date)} />
+            <DatePicker selected={date} onChange={(date) => setDate(date)} className="inputDate"/>
         </div>
     );
 }

@@ -13,7 +13,7 @@ function App() {
                 <div className="sumBlock">
                     <Sum/>
                 </div>
-                <div>
+                <div className="rateBlock">
                     <Rate/>
                 </div>
                 <div>

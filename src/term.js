@@ -1,10 +1,10 @@
 const Term = () => {
     return (
         <form>
-            <label>Credit term
-                <input type="text" required/>
+            <label>
+                <input type="text" required placeholder="Credit term" className="inputTerm"/>
             </label>
-            <select>
+            <select className="selectTerm">
                 <option value={"month"}>month</option>
                 <option value={"year"}>year</option>
             </select>

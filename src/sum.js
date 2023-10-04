@@ -1,15 +1,14 @@
 const Sum = () => {
     return (
-        <form>
-            <label>Amount of credit:
-                <input type="text" required/>
-            </label>
-            <select>
+        <div>
+            <input type="text" required placeholder="Amount of credit" className="inputSum"/>
+            <label className="labelSum"></label>
+            <select className="selectCurrency">
                 <option value={"ruble"}>₽</option>
                 <option value={"euro"}>€</option>
                 <option value={"dollar"}>$</option>
             </select>
-        </form>
+        </div>
     )
 }
 export default Sum;

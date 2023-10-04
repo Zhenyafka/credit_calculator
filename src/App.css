@@ -1,4 +1,5 @@
 .backgroundOfPage{
+    position: static;
     margin-left: auto;
     margin-right: auto;
     height: 1024px;
@@ -6,6 +7,7 @@
     background-image: linear-gradient(#1CDEEA, #000000);
 }
 .mainBlock{
+    position: static;
     margin-left: auto;
     margin-right: auto;
     height: 811px;
@@ -15,10 +17,108 @@
 }
 .sumBlock{
     position: relative;
-    top: 185px;
-    left: 206px;
+    margin-left: 91px;
+    margin-top: 128px;
+}
+
+.rateBlock{
+    position: relative;
+}
+
+.inputSum {
+    /*margin-left: 91px;*/
+    /*margin-top: 128px;*/
     height: 80px;
     width: 300px;
     background-color: #FDFFFF;
+    border: 0;
+    box-shadow: 0px 5px 5px grey;
     border-radius: 10px;
+    text-align: left;
+    font-size: 22px;
 }
+.selectCurrency{
+    position: relative;
+    margin-left: 1px;
+    margin-top: 128px;
+    height: 80px;
+    width: 53px;
+    background-color: #FDFFFF;
+    border: 0;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.inputRate{
+    position: relative;
+    margin-left: 91px;
+    margin-top: 60px;
+    height: 80px;
+    width: 355px;
+    background-color: #FDFFFF;
+    border: 0;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.inputFrequency{
+    position: relative;
+    margin-left: 91px;
+    margin-top: 60px;
+    height: 80px;
+    width: 355px;
+    background-color: #FDFFFF;
+    border: 0;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.inputTerm {
+    position: relative;
+    margin-left: 91px;
+    margin-top: 128px;
+    height: 80px;
+    width: 215px;
+    background-color: #FDFFFF;
+    border: 0;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.selectTerm {
+    position: relative;
+    margin-left: 1px;
+    margin-top: 128px;
+    height: 80px;
+    width: 140px;
+    background-color: #FDFFFF;
+    border: 0;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.inputDate {
+    position: relative;
+    margin-left: 91px;
+    margin-top: 128px;
+    height: 80px;
+    width: 215px;
+    background-color: #FDFFFF;
+    border: 0;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 22px;
+}
+
+
