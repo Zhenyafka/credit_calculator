@@ -1,8 +1,8 @@
 const Sum = () => {
     return (
         <div>
-            <input type="text" required placeholder="Amount of credit" className="inputSum"/>
-            <label className="labelSum"></label>
+            <input type="number" required placeholder="Amount of credit" className="inputSum"/>
+            <label className="label"></label>
             <select className="selectCurrency">
                 <option value={"ruble"}>₽</option>
                 <option value={"euro"}>€</option>
