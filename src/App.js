@@ -5,39 +5,6 @@ import Term from "./term";
 import Periodicity from "./periodicity";
 import Rate from "./rate";
 import DatePick from './issue-date';
-
-function App() {
-    return (
-        <div className="backgroundOfPage">
-            <div className="mainBlock">
-                <div className="sumBlock">
-                    <Sum/>
-                </div>
-                <div className="rateBlock">
-                    <Rate/>
-                </div>
-                <div>
-                    <Term/>
-                </div>
-                <div>
-                    <DatePick/>
-                </div>
-                <div>
-                    <Periodicity/>
-                </div>
-            </div>
-        </div>
-    );
-}
-
-export default App;
-import React from 'react';
-import './App.css';
-import Sum from './sum';
-import Term from "./term";
-import Periodicity from "./periodicity";
-import Rate from "./rate";
-import DatePick from './issue-date';
 import Total from './total';
 import FullPrice from './full_price';
 import Overpayment from './overpayment';
@@ -65,7 +32,7 @@ function App() {
                 </div>
                 <div className="footerBlock">
                     <div className="totalBlock">
-                        <Total/>
+                        <Total className="Total"/>
                     </div>
                     <div className="fullBlock">
                         <FullPrice/>
